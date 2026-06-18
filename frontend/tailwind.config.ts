@@ -7,7 +7,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Inter Variable', 'Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
         primary: { DEFAULT: '#2563EB', light: '#3B82F6', dark: '#1D4ED8' },

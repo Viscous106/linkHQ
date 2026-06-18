@@ -1,9 +1,10 @@
-/* Inter is loaded via <link> in index.html (preconnect + display=swap). */
+/* Inter is self-hosted via @fontsource-variable/inter (imported in main.tsx)
+   so it loads under the Zoom SDK's COEP: require-corp policy. */
 @import 'tailwindcss';
 @config '../../tailwind.config.ts';
 
 :root {
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-sans: 'Inter Variable', 'Inter', system-ui, sans-serif;
 
   /* Brand */
   --color-primary: #2563eb;
